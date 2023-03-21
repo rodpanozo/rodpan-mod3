@@ -1,8 +1,10 @@
-function createUser(): string {
-    console.log(`${param1}   ${param2}`);
-    return `${param1}   ${param2}`;
+type UserFormat = {
+    name: string, 
+    lastName?: string, 
+    birthday?: Date
 }
 
-//nameFunction("gg", 15);
-//console.log(nameFunction('asdasdad', 567894));
-console.log(nameFunction('asdasdad'));
+export function createUser(data: UserFormat) {
+   
+}
+
